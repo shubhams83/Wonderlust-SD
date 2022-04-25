@@ -56,7 +56,7 @@ ul {
 
 h1 {
     font-family: var(--Lexend);
-    font-size: 2.5rem;
+    font-size: 2.5vw;
 }
 
 h2 {
@@ -195,10 +195,11 @@ main .site-title {
     height: 110vh;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 main .site-title .site-background {
-    padding-top: 35rem;
+    padding-top: 20rem;
     text-align: center;
     color: var(--white);
     background: #0018417d;
@@ -206,10 +207,7 @@ main .site-title .site-background {
 }
 
 main .site-title h1 {
-    position: absolute;
     z-index: 2;
-    top: 55%;
-    left: 23%;
     font-size: 5vw;
     color: var(--white);
     font-family: Raleway;
@@ -217,7 +215,6 @@ main .site-title h1 {
 
 .site-title .site-background .form-element {
     color: black;
-    display: inline-block;
     position: relative;
 }
 
@@ -227,19 +224,19 @@ main .site-title h1 {
     border-radius: 10px;
     border-color: #FFFFFF;
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 1.2vw;
     border: none;
     outline: none;
 }
 
 
 .site-title .site-background .form-element span i {
-    padding: 0.5rem 0.7rem;
     cursor: pointer;
     position: absolute;
-    right: 3rem;
-    top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.2vw;
+    right: left;
+    left: 68%;
+    top: 38%;
 }
 
 /*--------------x--------------- Section - Site Title --------------x--------------*/
@@ -305,6 +302,7 @@ main .site-title h1 {
 .blog {
     position: relative;
     width: 100%;
+    height: fit-content;
 }
 
 .blog img {
@@ -323,6 +321,8 @@ main .site-title h1 {
 .blog-contents {
     padding: 20px;
     box-shadow: 0px 3px 4px 0px lightgrey;
+    height: 8rem;
+
 }
 
 .blog-contents h2 {
@@ -333,7 +333,7 @@ main .site-title h1 {
 }
 
 .blog-contents p {
-    font-size: 16px;
+    font-size: 15px;
     font-family: Raleway;
     color: black;
 }
@@ -509,26 +509,67 @@ button.btn-subscribe {
 }
 
 
-/*--------------Media Query Viewport less than or equal to 750px --------------*/
+/*--------------Media Query Viewport less than or equal to 1200px --------------*/
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1200px) {
     .nav .nav-menu, .nav .nav-items{
         flex-direction: column;
     }
 
     .nav .toggle-collapse {
         display: initial;
+        width: 90%;
     }
 
 }
 
-/*---------x----------- Viewport less than or equal to 750px -----------x---------*/
+/*---------x----------- Viewport less than or equal to 850px -----------x---------*/
+
+/*--------------Media Query Viewport less than or equal to 850px --------------*/
+
+@media only screen and (max-width: 850px) {
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+
+    .nav .toggle-collapse {
+        display: initial;
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+
+    .nav .toggle-collapse {
+        display: initial;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+
+    .nav .toggle-collapse {
+        display: initial;
+        width: 10%;
+    }
+
+}
+
+/*---------x----------- Viewport less than or equal to 850px -----------x---------*/
 
 /*--------------Media Query Viewport less than or equal to 520px --------------*/
 
 @media only screen and (max-width: 520px) {
     main .blog {
-        height: 80vh;
+        height: fit-content;
     }
 
     .site-content .post-content .post-image .post-info {
