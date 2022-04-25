@@ -1,0 +1,92 @@
+🌍 Wonder Lust Website - Self-Development - Django Rest API & React_&_Redux 🌍
+
+🍁 Preparation Flow of Self-Development Project 🍁
+
+🟣 General Steps to Build a Website 🟣
+
+🌿 #1. Designing a Website using HTML_5, CSS_3 & JavaScript.
+🌿 #2. Use JavaScript (logic) to make website user interactive & functional.
+🌿 #3. Use Fundamentals of CSS Media Query (Responsive), CSS Variables, 
+       Display - Flex & Grid, JQuery (JS Library), Owl Carousels - (Scrolling Cards), Google Fonts, Font Awesome (Icons), 
+       Animation on Scroll Library.
+🌿 #4. You Should know the general terminologies of a website like header (Navigation), main(Site Title, Carousels, Site Content (Blog Post), (Sidebar) (Pagination), footer.
+🌿 #5. Prerequisites knowledge & resources like an editor and interpretator & others.
+🌿 #6. Create a folder-files structure for Self-Development Project as follows:-
+       🌱 *i. .vscode - settings.json file - "liveServer.settings.port": 5501
+       🌱 *ii. assets - different image folders/image files - img files
+       🌱 *iii. css - all css files - style (fonts), carousel (style, theme), aos, icons
+       🌱 *iv. fonts - all google fonts folders (in common fonts folder) - .ttf files (static folder - Regular) - 
+          link in css files - fonts.css (@font-face - f-f, src-url) - link in style.css (@import - url)
+       🌱 *v. js - all js files - jquery, carousels, aos, main.js - link in index.html
+       🌱 *vi. src - all html web pages (.html) all linked with each other - all external files must be linked inside it
+       🌱 *vii. webfonts - all icons files - .ttf, woff2 files - paste in css files - all.css - link in index.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔥 Contents & Notes 🔥
+
+🍎#1. Basic Structure - Front-End View of Website - Static Website - HTML_5 & CSS_3.
+{Use the following steps to create an index.html & style.CSS file.} 
+
+🟢 #1. Create a folder for Self-Development_Project.
+🟢 #2. Import all images/icons in img folder of SD_Project from Adobe XD Website Design in SVG & PNG Format with High Quality.
+🟢 #3. Use Export (CMD+E) to export images/icons from the Adobe XD Desisgn.
+🟢 #4. Website - No. of Pages - 05 (Individual HTML_5 & CSS_3) - Header, Body, Footer.
+   🌱 *i. Home Page.
+   🌱 *ii. Image Preview.
+   🌱 *iii. Single Place Details.
+   🌱 *iv. Favourites.
+   🌱 *v. Maps.
+🟢 #5. You must understand the structure & significance of an HTML & CSS Syntax.
+🟢 #6. The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data. 
+<meta> tags always go inside the <head> element, and are typically used to specify character set, 
+page description, keywords, author of the document, and viewport settings.
+🟢 #7. Meta Tag attribute="charset" - UTF-8 - Unicode Transformation Format - The charset attribute specifies the character 
+encoding for the HTML document. The HTML5 specification encourages web developers 
+to use the UTF-8 character set, which covers almost all of the characters 
+and symbols in the world!
+🟢 #8. Meta Tag attribute="http-equiv" - few settings will be applied on Info/Content(is equivalent to HTTP header settings(value))
+- All header values will be applicable on HTML Data. Value is specified in content attribube
+of meta tag in attribute="http-equiv".
+  🌱 <meta http-equiv="refresh | default-style | content-type | content-security-policy">
+  🌱 Example:- An http-equiv attribute on a meta element.
+This setting refreshes the page every 30 seconds.
+🌱 Tag - <meta http-equiv="refresh" content="30">
+meta = metadata
+🟢 #9. VALUE	               DESCRIPTION
+🌱 refresh	                   Specifies a time interval in seconds for the document to refresh.
+🌱 default-style	           Specifies the name of the default CSS set.
+🌱 content-type	               Specifies the media type, formerly MIME type, and character encoding of the page.
+🌱 content-security-policy	   Specifies the current page's content policy.
+🟢 #10. Meta Tag attribute="name="viewport"" - The viewport is the user's visible area of a web page. The viewport varies with the device,
+ and will be smaller on a mobile phone than on a computer screen. Before tablets and mobile phones, 
+ web pages were designed only for computer screens, and it was common for web pages to have a static design 
+ and a fixed size.
+🌱 Tag - <meta name="viewport" content="width=display-width", initial-scale="1.0" /> 
+🟢 #11. The box-shadow CSS property adds shadow effects around an element's frame. 
+You can set multiple effects separated by commas. A box shadow is described 
+by X and Y offsets relative to the element, blur and spread radius, and color.
+🟢 #12. What is CSS_3 - Display - Grid Layout System - Customized Layout - Unique Commands.
+🌱 #a. Commands - display: grid
